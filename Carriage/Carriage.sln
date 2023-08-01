@@ -11,13 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Persistence", "3 - Pers
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Shared", "4 - Shared", "{76770F71-65D2-4034-8666-8AD9F49E9273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carriage.Models", "Carriage.Models\Carriage.Models.csproj", "{632F7EB1-08D4-41BF-ADA2-EF8DC78A7579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carriage.Models", "Carriage.Models\Carriage.Models.csproj", "{632F7EB1-08D4-41BF-ADA2-EF8DC78A7579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carriage.Repository", "Carriage.Repository\Carriage.Repository.csproj", "{1DA0F09D-0BFF-4DBC-BF24-0AA104A6CBF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carriage.Repository", "Carriage.Repository\Carriage.Repository.csproj", "{1DA0F09D-0BFF-4DBC-BF24-0AA104A6CBF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carriage.Services", "Carriage.Services\Carriage.Services.csproj", "{2258100D-73C7-4B48-816A-A9338DB96067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carriage.Services", "Carriage.Services\Carriage.Services.csproj", "{2258100D-73C7-4B48-816A-A9338DB96067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carriage.MVC", "Carriage.Web\Carriage.MVC.csproj", "{352812BA-38BA-4EB1-A6DC-D552B0C662AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carriage.MVC", "Carriage.Web\Carriage.MVC.csproj", "{352812BA-38BA-4EB1-A6DC-D552B0C662AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Abstractions", "..\..\Bizlogit\Core\Core.Abstractions\Core.Abstractions.csproj", "{5496D62E-2837-488B-9F4F-4195157867CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Framework", "..\..\Bizlogit\Core\Core.Framework\Core.Framework.csproj", "{5C86A3BC-565F-4210-8F75-A2BB6BC4CDF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{70790731-E917-4424-BB48-1EED62A7B1F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,14 @@ Global
 		{352812BA-38BA-4EB1-A6DC-D552B0C662AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{352812BA-38BA-4EB1-A6DC-D552B0C662AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{352812BA-38BA-4EB1-A6DC-D552B0C662AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5496D62E-2837-488B-9F4F-4195157867CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5496D62E-2837-488B-9F4F-4195157867CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5496D62E-2837-488B-9F4F-4195157867CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5496D62E-2837-488B-9F4F-4195157867CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C86A3BC-565F-4210-8F75-A2BB6BC4CDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C86A3BC-565F-4210-8F75-A2BB6BC4CDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C86A3BC-565F-4210-8F75-A2BB6BC4CDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C86A3BC-565F-4210-8F75-A2BB6BC4CDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +64,9 @@ Global
 		{1DA0F09D-0BFF-4DBC-BF24-0AA104A6CBF7} = {AC4198A6-BFCE-4C46-9116-402AB298E519}
 		{2258100D-73C7-4B48-816A-A9338DB96067} = {441DCA2D-0443-4E3F-9872-7AED61AF5BBB}
 		{352812BA-38BA-4EB1-A6DC-D552B0C662AB} = {8ADBF2F2-FDBE-44C0-9438-E247E3BE99A5}
+		{5496D62E-2837-488B-9F4F-4195157867CE} = {70790731-E917-4424-BB48-1EED62A7B1F0}
+		{5C86A3BC-565F-4210-8F75-A2BB6BC4CDF3} = {70790731-E917-4424-BB48-1EED62A7B1F0}
+		{70790731-E917-4424-BB48-1EED62A7B1F0} = {76770F71-65D2-4034-8666-8AD9F49E9273}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4935AFE1-3508-4F0A-84B4-1D6ECB9F2B7A}
