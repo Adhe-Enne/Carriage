@@ -1,4 +1,4 @@
-﻿namespace Carriage.DbContext.IoC
+﻿namespace Carriage.DataBaseContext.IoC
 {
     public class Startup
     {

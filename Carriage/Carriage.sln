@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Framework", "..\..\Biz
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{70790731-E917-4424-BB48-1EED62A7B1F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carriage.DbContext", "Carriage.DbContext\Carriage.DbContext.csproj", "{BD253B0E-513F-4640-8D10-99A3FD83F5DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carriage.DataBaseContext", "Carriage.DbContext\Carriage.DataBaseContext.csproj", "{BD253B0E-513F-4640-8D10-99A3FD83F5DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
